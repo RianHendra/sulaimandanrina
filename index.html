@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sulaiman & Rina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="header" id="header">
+        <i class="fa-sharp fa-solid fa-bars hamburger" id="ham-click"></i>
+        <h1 class="header-top">Sulaiman & Rina</h1>
+        <ul class="header-menu" id="header-menu">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#thumb">Galeri</a></li>
+            <li><a href="#tempat-acara">Tempat Acara</a></li>
+            <li><a href="#ucapan">Ucapan</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1 class="hero-top">
+            Sulaiman & Rina
+        </h1>
+        <p class="hero-text">Minggu, 23 Juni 2023</p>
+        <button class="btn-ucapan">Kirim Ucapan</button>
+    </section>
+
+
+    <section class="galeri" id="thumb">
+        <h1 class="galeri-header">Galeri</h1>
+        <div class="img-jumbo">
+            <img src="img/jumbo/1.png" id="img-jumbo" alt="">
+        </div>
+        <div class="img-thumb" id="img-thumb">
+            <img src="img/thumb/1.png" class="thumb active" id="1" alt="">
+            <img src="img/thumb/2.png" class="thumb" id="2" alt="">
+            <img src="img/thumb/3.png" class="thumb" id="3" alt="">
+            <img src="img/thumb/4.png" class="thumb" id="4" alt="">
+            <img src="img/thumb/5.png" class="thumb" id="5" alt="">
+            <img src="img/thumb/6.png" class="thumb" id="6" alt="">
+            <img src="img/thumb/7.png" class="thumb" id="7" alt="">
+            <img src="img/thumb/8.png" class="thumb" id="8" alt="">
+            <img src="img/thumb/9.png" class="thumb" id="9" alt="">
+        </div>
+    </section>
+
+    <section class="tempat-acara" id="tempat-acara">
+        <h1 class="header-acara">Tempat Acara</h1>
+        <div class="container-acara">
+
+            <div class="peta-map">
+                <img src="img/peta-map.png" alt="">
+            </div>
+            <div class="alamat">
+                <h3>Alamat</h3>
+                <p class="text-alamat">Jl. HKSN Komp. Perdana Permai Blok 3H, No. 141, RT.013
+                    Banjarmasin Utara, Kalimantan Selatan</p>
+                <br>
+                <h3>Jadwal</h3>
+                <p class="text-alamat">Pukul 09.00 s/d selesai WITA</p>
+                <br>
+                <div class="btn-alamat">
+                    <button class="btn btn-get">ambil peta lokasi</button>
+                    <button class="btn btn-share">bagikan lokasi</button>
+                </div>
+                <div class="nikah">
+                    <p class="text-nikah">“Tidak pernah didapati bunga-bunga cinta antara dua orang yang memadu cinta
+                        sebagaimana pada dua orang yang telah menikah." </p>
+                    <p class="text-hadist">- HR. Ibnu Majah no: 1847, dishahihkan oleh Al-Albanl dalam Shohih Ibnu Majah
+                        no:
+                        1497</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="ucapan" id="ucapan">
+        <h1 class="text-ucapan">Ucapan</h1>
+        <div class="container-ucapan">
+            <div class="img-ucapan">
+                <img src="img/jumbo/img-ucapan.png" alt="">
+            </div>
+            <div class="form-ucapan">
+                <label for="username" class="label-user">Dari :</label> <br>
+                <input type="text" name="nama" class="text-user" autocomplete="off"><br>
+                <label for="username" class="label-user">Isi Ucapan :</label><br>
+                <textarea class="isi"></textarea>
+                <div class="btn-ucap">
+                    <button type="button" class="btn-kirim">Kirim</button>
+                    <p class="text-ucap">kami tunggu kehadiranmu</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <h1 class="text-h-footer">Sulaiman & Rina</h1>
+        <p class="text-footer">Maka nikahilah wanita-wanita lain yang halal bagi kalian untuk dinikahi; (apakah) dua,
+            tiga, atau empat. Namun, apabila kalian khawatir tidak bisa berlaku adil (di antara para istri bila sampai
+            kalian memiliki iebih dari satu istri), nikahilah satu istri saja atau mencukupkan dengan budak perempuan
+            yang kalian miliki. Hal itu lebih dekat kepada tidak berbuat aniaya."</p>
+        <p class="text-hadist"> - QS. An-Nisaa’: 3.</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
